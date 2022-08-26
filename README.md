@@ -8,6 +8,6 @@ Different modules like adder, register, shift register, up counter, multiplexer 
 
 Both the controller and the datapath are seperately defined in the Controller.v and Datapath.v files.
 
-The top level module of the final divider is inititated in Toplevel.v, also a test bench was implemented to check the function of the divider, which is shown in the testbench.v file.
+The top level module of the final processor is inititated in MIPS.v, also a test bench was implemented to check the function of the precoessor, which is shown in the TB.v file.
 
-The text file is the assembly instruction for a program to find the maximum number in a list of 20 numbers, and store both the number and its index in the memory.
+The text file is the machine language instruction for a program to find the maximum number in a list of 20 numbers, and store both the number and its index in the memory.
